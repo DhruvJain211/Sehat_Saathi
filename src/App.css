@@ -1,0 +1,147 @@
+.order-medicine-container {
+  position: relative;
+  top: 40px;
+
+  background-color: #ebf8ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  right : 200px;
+}
+
+/* Heading */
+.order-medicine-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Offer tags */
+.order-medicine-container .offers {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.order-medicine-container .offer-item {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.order-medicine-container .offer-item::before {
+  content: '✔';
+  color: #28a745;
+  margin-right: 5px;
+}
+
+/* Search bar container */
+.search-bar {
+  display: flex;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Search input field */
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+
+.search-bar button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #218838;
+}
+.carousel-custom {
+  background-color: white;
+  padding: 0; /* Remove padding to ensure the carousel takes full width */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  left: -200px;
+  position: relative;
+  top: -220px;
+  max-width: 500px;
+  margin: 40px auto 20px;
+}
+
+.carousel-inner {
+  height: 55vh;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the container while maintaining aspect ratio (Solution 1) */
+}
+
+
+.carousel-custom .carousel-control-prev,
+.carousel-custom .carousel-control-next {
+  width: 5%;
+}
+.container {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+  top: -160px;
+  left : 450px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+}
+.order-box, .no-prescription-box {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-box:hover, .no-prescription-box:hover {
+  background-color: #f0f0f0;
+}
+.order-box {
+  background-color: #e6f4ea;
+  color: #008000;
+}
+.no-prescription-box {
+  background-color: #ffefef;
+  color: #d9534f;
+}
+.no-prescription-box ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  color: black;
+} 
+
+#searchResults{
+  position: relative;
+  left: -500px;
+}
+
